@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{0B13A17A-9B4D-4A2A-991E-363D4DE78ED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{4D750690-61B4-4A62-8FA8-729A67DFAC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caerius.Core", "Libs\Caerius.Core\Caerius.Core.csproj", "{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caerius.Orm", "Src\Caerius.Orm\Caerius.Orm.csproj", "{4BFB380D-EB69-485C-9FF1-4BADD74A3684}"
+	ProjectSection(ProjectDependencies) = postProject
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F} = {236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}.Debug|x64.ActiveCfg = Debug|x64
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}.Debug|x64.Build.0 = Debug|x64
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}.Release|x64.ActiveCfg = Release|x64
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F}.Release|x64.Build.0 = Release|x64
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684}.Debug|x64.ActiveCfg = Debug|x64
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684}.Debug|x64.Build.0 = Debug|x64
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684}.Release|x64.ActiveCfg = Release|x64
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{236A8B7A-1F06-41F6-9D13-00ABD9EB2B8F} = {0B13A17A-9B4D-4A2A-991E-363D4DE78ED5}
+		{4BFB380D-EB69-485C-9FF1-4BADD74A3684} = {4D750690-61B4-4A62-8FA8-729A67DFAC5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DE412F5-F609-4A8A-9B96-DCA046A0783D}
+	EndGlobalSection
+EndGlobal
